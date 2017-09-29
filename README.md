@@ -36,7 +36,7 @@ $ pod install
 
 self.verifire = [[VFVerifire alloc] initWithKey:<YOUR SDK KEY>];
 
-[verifire verifyNumber:phoneNumberString method:VFVerifireMethodSMS completion:^(NSError * _Nullable error) {
+[self.verifire verifyNumber:phoneNumberString method:VFVerifireMethodSMS completion:^(NSError * _Nullable error) {
 
     if (! error)
     {
@@ -44,5 +44,20 @@ self.verifire = [[VFVerifire alloc] initWithKey:<YOUR SDK KEY>];
     }
 }];
 
+```
+
+
+#### Complete Verification
+
+```objective-c
+
+[self.verifire confirmWithCode:PINCode completion:^(NSString * _Nullable phoneNumber, NSString * _Nullable requestId, NSError * _Nullable error) {
+
+    if (! error)
+    {
+        // Phone number successfully verified
+    }
+
+}];
 ```
 
