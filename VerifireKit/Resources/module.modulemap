@@ -1,0 +1,5 @@
+framework module VerifireKit {
+    umbrella header "VerifireKit.h"
+    export *
+    module * { export * }
+}
