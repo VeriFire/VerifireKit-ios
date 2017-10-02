@@ -13,7 +13,7 @@ class CodeViewController: UIViewController {
 
     @IBOutlet weak var codeField: UITextField!
     
-    @IBAction func actionCheck(_ sender: Any)
+    @IBAction func actionCheckCode(_ sender: Any)
     {
         if let delegate = UIApplication.shared.delegate as? AppDelegate {
             
