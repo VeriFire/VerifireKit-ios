@@ -1,5 +1,8 @@
-# VerifireKit-ios
+# VerifireKit
 
+<p align="center" >
+<img src="https://raw.github.com/VeriFire/VerifireKit-ios/logo.png" alt="Verifire" title="Verifire">
+</p>
 
 ## Installation with CocoaPods
 
