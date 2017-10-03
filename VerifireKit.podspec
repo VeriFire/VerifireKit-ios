@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 	s.summary 		= 'Phone number verification'
 	s.homepage 		= 'https://github.com/VeriFire/VerifireKit-ios'
 	s.documentation_url = 'https://verifire.io/'
-	s.license 		= { :type => 'Apache', :file => 'LICENSE' }
+	s.license 		= { :type => 'MIT', :file => 'LICENSE' }
 	s.author 		= { 'Sergey Popov' => 'serj@verifire.io' }
 	s.source 		= { :git => 'https://github.com/VeriFire/VerifireKit-ios.git', :tag => s.version.to_s }
 	s.requires_arc	= true
