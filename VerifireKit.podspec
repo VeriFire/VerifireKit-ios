@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 	s.name 			= 'VerifireKit'
-	s.version 		= '1.0.1'
+	s.version 		= '1.0.2'
 	s.summary 		= 'Phone number verification'
 	s.homepage 		= 'https://github.com/VeriFire/VerifireKit-ios'
 	s.documentation_url = 'https://verifire.io/'
