@@ -52,7 +52,7 @@
         // Set user agent
         // Yolla/1.9.9 (iPhone; iOS 11.0; Scale/2.00) VerifireKit/1.0
         
-        NSURL *bundleURL = [[NSBundle mainBundle] URLForResource:@"VerifireKit" withExtension:@"bundle"];
+        NSURL *bundleURL = [[NSBundle bundleForClass:self.class] URLForResource:@"VerifireKit" withExtension:@"bundle"];
         NSParameterAssert(bundleURL);
         NSBundle *verifireBundle = [NSBundle bundleWithURL:bundleURL];
         NSParameterAssert(verifireBundle);
